@@ -100,7 +100,7 @@
       [ [ "scrap", 6 ] ],
       [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ]
     ]
-  },  
+  },
   {
     "result": "ig_flak_kneeplates",
     "type": "recipe",
