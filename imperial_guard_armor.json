@@ -17,7 +17,7 @@
     "coverage": 85,
     "encumbrance": 10,
     "warmth": 5,
-    "material_thickness": 3,
+    "material_thickness": 2,
     "flags": [ "STURDY", "VARSIZE", "WATERPROOF", "STURDY" ]
   },
   {
@@ -31,13 +31,13 @@
     "volume": 3,
     "price": 30000,
     "to_hit": 1,
-    "material": [ "steel" ],
+    "material": [ "iron" ],
     "symbol": "[",
     "color": "light_gray",
     "covers": [ "ARMS" ],
     "coverage": 30,
     "encumbrance": 3,
-    "material_thickness": 3,
+    "material_thickness": 2,
     "flags": [ "BELTED", "VARSIZE", "WATERPROOF", "STURDY" ]
   },
   {
@@ -51,13 +51,13 @@
     "volume": 11,
     "price": 15000,
     "to_hit": 1,
-    "material": [ "steel" ],
+    "material": [ "iron" ],
     "symbol": "[",
     "color": "light_gray",
     "covers": [ "LEGS" ],
     "coverage": 30,
     "encumbrance": 3,
-    "material_thickness": 3,
+    "material_thickness": 2,
     "flags": [ "BELTED", "VARSIZE", "WATERPROOF", "STURDY" ]
   },
   {
@@ -71,13 +71,13 @@
     "volume": 11,
     "price": 15000,
     "to_hit": 1,
-    "material": [ "steel" ],
+    "material": [ "iron" ],
     "symbol": "[",
     "color": "light_gray",
     "covers": [ "LEGS" ],
     "coverage": 30,
     "encumbrance": 3,
-    "material_thickness": 3,
+    "material_thickness": 2,
     "flags": [ "BELTED", "VARSIZE", "WATERPROOF", "STURDY" ]
   },
   {
@@ -98,7 +98,7 @@
     "coverage": 95,
     "encumbrance": 20,
     "warmth": 20,
-    "material_thickness": 5,
+    "material_thickness": 4,
     "techniques": [ "WBLOCK_1" ],
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
   }
