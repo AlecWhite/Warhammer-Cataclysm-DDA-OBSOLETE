@@ -1,0 +1,14 @@
+[  {
+    "id": "aquila_imperialis",
+    "type": "ARMOR",
+    "name": "imperial aquila necklace",
+    "description": "A necklace with the Imperial Aquila. A symbol of faith and strength.",
+    "weight": 22,
+    "volume": 0,
+    "price": 500,
+    "material": "steel",
+    "symbol": ",",
+    "color": "grey",
+    "use_action": "MEDITATE",
+    "flags": [ "FANCY" ]
+  }]

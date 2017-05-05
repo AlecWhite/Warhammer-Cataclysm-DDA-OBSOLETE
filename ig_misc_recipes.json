@@ -1,0 +1,23 @@
+[
+  {
+    "result": "aquila_imperialis",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "fabrication", 4 ],
+    "time": 20000,
+    "reversible": true,
+    "book_learn": [ [ "WH40KRB", 3 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "SEW", "level": 1 }
+    ],
+    "tools": [ [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ] ],
+    "components": [
+      [ [ "rag", 1 ] ],
+      [ [ "scrap", 1 ] ]
+    ]
+  }
+]
