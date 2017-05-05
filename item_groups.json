@@ -4,7 +4,8 @@
     "type": "item_group",
     "items": [
       [ "WH40Knovel", 10 ],
-      [ "WH40KRB", 15 ]
+      [ "WH40KRB", 15 ],
+      [ "WH40Kprimer", 20 ]
     ]
   },
   {
@@ -15,14 +16,18 @@
   {
     "id": "manuals",
     "type": "item_group",
-    "items": [ [ "WH40KRB", 20 ] ]
+    "items": [
+      [ "WH40KRB", 20 ],
+      [ "WH40Kprimer", 20 ]
+    ]
   },
   {
     "id": "mansion_books",
     "type": "item_group",
     "items": [
       [ "WH40Knovel", 10 ],
-      [ "WH40KRB", 15 ]
+      [ "WH40KRB", 15 ],
+      [ "WH40Kprimer", 20 ]
     ]
   }
 ]
