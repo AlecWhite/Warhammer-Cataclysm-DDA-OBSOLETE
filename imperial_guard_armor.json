@@ -61,7 +61,7 @@
     "flags": [ "BELTED", "VARSIZE", "WATERPROOF", "STURDY" ]
   },
   {
-    "id": "ig__flak_kneeplates",
+    "id": "ig_flak_kneeplates",
     "type": "ARMOR",
     "category": "armor",
     "name": "a pair of IG flak kneeplates",
