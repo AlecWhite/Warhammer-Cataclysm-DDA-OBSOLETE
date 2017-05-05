@@ -1,0 +1,32 @@
+    [{
+    "id": "WH40KRB",
+    "type": "BOOK",
+    "name": "Warhammer 40,000 41th Edition",
+    "description": "The final volume, The Rules, is a 208 page book contains all the rules for playing games of Warhammer 40,000.",
+    "weight": 1712,
+    "volume": 8,
+    "price": 9000,
+    "bashing": 5,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "black",
+    "intelligence": 8,
+    "time": 40,
+    "fun": 1
+  },
+  {
+    "id": "WH40Knovel",
+    "type": "BOOK",
+    "name": "A Warhammer 40,000 Novel",
+    "description": "One of the many novels of the Black Library",
+    "weight": 227,
+    "volume": 4,
+    "price": 2500,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "black",
+    "intelligence": 7,
+    "time": 40,
+    "chapters": 50,
+    "fun": 2
+  }]
