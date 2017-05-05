@@ -29,4 +29,20 @@
     "time": 40,
     "chapters": 50,
     "fun": 2
+  },
+  {
+    "id": "WH40Kprimer",
+    "type": "BOOK",
+    "name": "Imperial Infantryman's Uplifting Primer",
+    "description": "The Imperial Infantryman's Uplifting Primer is a standard-issue Imperial text that covers a vast variety of topics about service in the Imperial Guard",
+    "weight": 1500,
+    "volume": 6,
+    "price": 7000,
+    "bashing": 2,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "black",
+    "intelligence": 8,
+    "time": 30,
+    "fun": 1
   }]
