@@ -1,0 +1,28 @@
+[{
+    "id": "M36kantrael_lasrifle",
+    "type": "GUN",
+    "name": "M36 Kantrael Pattern Lasrifle",
+    "description": "An energy based weapon, and is the most common and widely used type of laser weapon in the Imperium. It is standard issue for all Imperial Guard infantry and most lower-ranked officers.
+	This handcrafted version uses UPS as ammunition"
+    "volume": 12,
+    "price": 1600000,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_green",
+    "skill": "rifle",
+    "range": 40,
+    "ranged_damage": 25,
+    "pierce": 15,
+    "dispersion": 10,
+    "durability": 8,
+    "burst": 3,
+    "loudness": 7,
+    "ups_charges": 150,
+    "reload": 0,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
+  },
+  ]
