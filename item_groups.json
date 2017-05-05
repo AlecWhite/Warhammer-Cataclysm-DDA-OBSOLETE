@@ -1,0 +1,28 @@
+[
+  {
+    "id": "livingroom",
+    "type": "item_group",
+    "items": [
+      [ "WH40Knovel", 10 ],
+      [ "WH40KRB", 15 ]
+    ]
+  },
+  {
+    "id": "novels",
+    "type": "item_group",
+    "items": [ [ "WH40Knovel", 10 ] ]
+  },
+  {
+    "id": "manuals",
+    "type": "item_group",
+    "items": [ [ "WH40KRB", 20 ] ]
+  },
+  {
+    "id": "mansion_books",
+    "type": "item_group",
+    "items": [
+      [ "WH40Knovel", 10 ],
+      [ "WH40KRB", 15 ]
+    ]
+  }
+]
