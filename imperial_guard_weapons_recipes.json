@@ -1,0 +1,24 @@
+[{
+    "result": "M36kantrael_lasrifle",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "time": 300000,
+	"skills_required": [ "electronics", 8 ],
+    "reversible": true,
+    "autolearn": false,
+    "book_learn": [ [ "WH40KRB", 3 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "tools": [ [ [ "soldering_iron", 200 ], [ "toolset", 200 ] ] ],
+    "components": [
+      [ [ "amplifier", 3 ] ],
+      [ [ "power_supply", 5 ] ],
+      [ [ "cable", 100 ] ],
+      [ [ "e_scrap", 10 ] ],
+      [ [ "lens", 24] ],
+      [ [ "plastic_chunk", 6 ] ]
+    ]
+  }
+ ]
