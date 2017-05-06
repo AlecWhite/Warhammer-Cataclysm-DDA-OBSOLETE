@@ -115,7 +115,7 @@
     "id": "dlakucrusade_hellgun_ups",
     "type": "GUN",
     "name": "D laku Crusade-pattern Hellgun UPS",
-    "description": "An energy based weapon, and is the most common and widely used type of laser weapon in the Imperium. It is standard issue for all Imperial Guard infantry and most lower-ranked officers. This handcrafted version uses UPS as ammunition",
+    "description": "a pattern of Imperial Lasgun that possesses a more advanced and powerful laser plasma generation system intended to provide more energetic laser fire on-target. This weapon is able to melt through almost any body armor. This handcrafted version uses UPS as ammunition",
     "volume": 20,
     "price": 3000000,
     "to_hit": -3,
