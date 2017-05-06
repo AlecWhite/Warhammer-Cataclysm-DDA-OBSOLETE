@@ -71,5 +71,30 @@
       [ [ "chain", 4 ] ],
       [ [ "scrap", 6 ] ]
     ]
+  },
+  {
+    "result": "dlakucrusade_hellgun_ups",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 9,
+    "skills_required": [ "electronics", 9 ],
+    "time": 300000,
+    "reversible": true,
+    "autolearn": false,
+    "book_learn": [ [ "WH40KRB", 4 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "tools": [ [ [ "welder", 150 ], [ "welder_crude", 200 ], [ "toolset", 200 ], [ "oxy_torch", 40 ] ] ],
+    "components": [
+      [ [ "amplifier", 8 ] ],
+      [ [ "power_supply", 10 ] ],
+      [ [ "cable", 300 ] ],
+      [ [ "e_scrap", 50 ] ],
+      [ [ "lens", 40 ] ],
+      [ [ "plastic_chunk", 10 ] ],
+	  [ [ "UPS_off", 1 ] ],
+		[ [ "steel_lump", 6 ] ]
+    ]
   }
 ]
