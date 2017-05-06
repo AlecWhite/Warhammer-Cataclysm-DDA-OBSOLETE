@@ -138,7 +138,7 @@
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "ammo_effects": [ "PLASMA", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MODE_BURST" ]
-  }{
+  },{
     "id": "godwyndeaz_boltgun",
     "type": "GUN",
     "name": "Godwyn-De az Pattern boltgun",
