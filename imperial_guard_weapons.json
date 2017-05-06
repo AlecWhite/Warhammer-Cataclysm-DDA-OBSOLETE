@@ -154,7 +154,7 @@
     "material": "steel",
     "symbol": "[",
     "color": "dark_grey",
-    "ammo": "75bolt",
+    "ammo": "75boltround",
     "skill": "rifle",
     "ranged_damage": 4,
     "dispersion": 6,
