@@ -160,6 +160,6 @@
     "loudness": 150,
     "reload": 200,
     "barrel_length": 1,
-    "magazines": [ [ "75bolt" , [ "BolterSickleMag_30", "BolterSickleMag_25", "BolterSickleMag_20", "BolterDrumMag_40" , "BolterDrumMag_60" ] ] ]
+    "magazines": [ [ "75boltround" , [ "75boltmag", "75boltdrum"] ] ]
 }
   ]
