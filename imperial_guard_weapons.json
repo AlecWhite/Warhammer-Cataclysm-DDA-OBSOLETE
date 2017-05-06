@@ -1,5 +1,5 @@
 [{
-    "id": "M36kantrael_lasrifle_ups",
+    "id": "m36kantrael_lasrifle_ups",
     "type": "GUN",
     "name": "M36 Kantrael Pattern Lasrifle UPS",
     "description": "An energy based weapon, and is the most common and widely used type of laser weapon in the Imperium. It is standard issue for all Imperial Guard infantry and most lower-ranked officers. This handcrafted version uses UPS as ammunition",
@@ -22,7 +22,7 @@
     "reload": 0,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MODE_BURST" ]
   },{
     "id": "hellteethcw_off",
     "type": "TOOL",
@@ -110,5 +110,31 @@
     "qualities": [ [ "AXE", 2 ] ],
     "use_action": "CHAINSAW_ON",
     "flags": [ "MESSY", "NONCONDUCTIVE", "DURABLE_MELEE"]
+  },
+  {
+    "id": "dlakucrusade_hellgun_ups",
+    "type": "GUN",
+    "name": "D’laku Crusade-pattern Hellgun UPS",
+    "description": "An energy based weapon, and is the most common and widely used type of laser weapon in the Imperium. It is standard issue for all Imperial Guard infantry and most lower-ranked officers. This handcrafted version uses UPS as ammunition",
+    "volume": 20,
+    "price": 3000000,
+    "to_hit": -3,
+    "bashing": 15,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_grey",
+    "skill": "rifle",
+    "range": 50,
+    "ranged_damage": 30,
+    "pierce": 30,
+    "dispersion": 15,
+    "durability": 4,
+    "burst": 3,
+    "loudness": 10,
+    "ups_charges": 50,
+    "reload": 0,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MODE_BURST" ]
   }
   ]

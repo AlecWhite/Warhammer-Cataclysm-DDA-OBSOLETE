@@ -1,12 +1,13 @@
-[{
-    "result": "M36kantrael_lasrifle_ups",
+[
+  {
+    "result": "m36kantrael_lasrifle_upss",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
     "difficulty": 8,
+    "skills_required": [ "electronics", 8 ],
     "time": 300000,
-	"skills_required": [ "electronics", 8 ],
     "reversible": true,
     "autolearn": false,
     "book_learn": [ [ "WH40KRB", 3 ] ],
@@ -17,85 +18,58 @@
       [ [ "power_supply", 5 ] ],
       [ [ "cable", 100 ] ],
       [ [ "e_scrap", 10 ] ],
-      [ [ "lens", 24] ],
+      [ [ "lens", 24 ] ],
       [ [ "plastic_chunk", 6 ] ]
     ]
-  },{
-  "type" : "recipe",
-  "result": "hellteethcw_off",
-  "category": "CC_OTHER",
-  "subcategory": "CSC_OTHER_TOOLS",
-  "skill_used": "mechanics",
-  "difficulty": 4,
-  "time": 30000,
-  "reversible": true,
-  "decomp_learn": 4,
-  "book_learn": [ [ "WH40KRB", 3 ] ],
-  "qualities":[
-    {"id":"HAMMER","level":2},
-    {"id":"SCREW","level":1},
-    {"id":"WRENCH","level":1},
-    { "id" : "GLARE", "level" : 2 }
-  ], "tools": [
-    [
-      ["welder", 100],
-      ["welder_crude", 150],
-      ["toolset", 150],
-      ["oxy_torch", 20]
+  },
+  {
+    "result": "hellteethcw_off",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "time": 30000,
+    "reversible": true,
+    "decomp_learn": 4,
+    "book_learn": [ [ "WH40KRB", 3 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 },
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ [ [ "welder", 100 ], [ "welder_crude", 150 ], [ "toolset", 150 ], [ "oxy_torch", 20 ] ] ],
+    "components": [
+      [ [ "1cyl_combustion_small", 1 ] ],
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "chain", 2 ] ],
+      [ [ "scrap", 4 ] ]
     ]
-  ],
-  "components": [
-    [
-      [ "1cyl_combustion_small", 1 ]
+  },
+  {
+    "result": "eviscw_off",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "mechanics",
+    "difficulty": 8,
+    "time": 60000,
+    "reversible": true,
+    "decomp_learn": 8,
+    "book_learn": [ [ "WH40KRB", 4 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 },
+      { "id": "GLARE", "level": 2 }
     ],
-    [
-      [ "metal_tank_little", 1 ]
-    ],
-    [
-      [ "chain", 2 ]
-    ],
-    [
-      [ "scrap", 4 ]
+    "tools": [ [ [ "welder", 150 ], [ "welder_crude", 200 ], [ "toolset", 200 ], [ "oxy_torch", 40 ] ] ],
+    "components": [
+      [ [ "1cyl_combustion_small", 1 ] ],
+      [ [ "metal_tank_little", 2 ] ],
+      [ [ "chain", 4 ] ],
+      [ [ "scrap", 6 ] ]
     ]
-  ]
-},{
-  "type" : "recipe",
-  "result": "eviscw_off",
-  "category": "CC_OTHER",
-  "subcategory": "CSC_OTHER_TOOLS",
-  "skill_used": "mechanics",
-  "difficulty": 8,
-  "time": 60000,
-  "reversible": true,
-  "decomp_learn": 8,
-  "book_learn": [ [ "WH40KRB", 4 ] ],
-  "qualities":[
-    {"id":"HAMMER","level":2},
-    {"id":"SCREW","level":1},
-    {"id":"WRENCH","level":1},
-    { "id" : "GLARE", "level" : 2 }
-  ], "tools": [
-    [
-      ["welder", 150],
-      ["welder_crude", 200],
-      ["toolset", 200],
-      ["oxy_torch", 40]
-    ]
-  ],
-  "components": [
-    [
-      [ "1cyl_combustion_small", 1 ]
-    ],
-    [
-      [ "metal_tank_little", 2 ]
-    ],
-    [
-      [ "chain", 4 ]
-    ],
-    [
-      [ "scrap", 6 ]
-    ]
-  ]
-}
-
- ]
+  }
+]
