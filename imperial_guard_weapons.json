@@ -11,7 +11,7 @@
     "symbol": "(",
     "color": "dark_green",
     "skill": "rifle",
-    "range": 40,
+    "range": 30,
     "ranged_damage": 25,
     "pierce": 10,
     "dispersion": 0,
