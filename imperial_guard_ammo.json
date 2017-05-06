@@ -1,0 +1,56 @@
+[
+  {
+    "id": "bolt_casing",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": ".75 Bolt casing",
+    "description": "The casing of a spent bolt round",
+    "weight": 60,
+    "volume": 3,
+    "material": "steel",
+    "symbol": "=",
+    "color": "dark_yellow"
+  },
+
+
+    {
+        "id": "75boltround",
+        "type": "AMMO",
+        "name": ".75 bolt round",
+        "name_plural": ".75 bolt rounds",
+        "description": "A standard .75 self-propelled bolt round.",
+        "weight": 20,
+        "volume": 3,
+        "price": 250000,
+        "to_hit": 0,
+        "bashing": 1,
+        "cutting": 0,
+        "material": ["brass", "powder", "steel"],
+        "symbol": "=",
+        "color": "green",
+        "count": 50,
+        "stack_size": 35,
+        "ammo_type": "75boltround",
+        "range": 30,
+        "damage": 60,
+        "pierce": 10,
+        "dispersion": 5,
+        "recoil": 750,
+        "casing": "bolt_casing",
+        "effects": ["COOKOFF", "BEANBAG", "EXPLOSION", "MUZZLE_SMOKE"],
+        "EXPLOSION":
+        {
+            "power": 1000,
+            "range": 1,
+            "distance_factor": 0.5,
+            "fire": false,
+            "shrapnel":
+            {
+                "count": 1500,
+                "mass": 500,
+                "recovery": 10,
+                "drop": "shrapnel"
+            }
+        }
+    }
+        ]
