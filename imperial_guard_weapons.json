@@ -1,10 +1,11 @@
-[{
+[
+  {
     "id": "m36kantrael_lasrifle_ups",
     "type": "GUN",
     "name": "M36 Kantrael Pattern Lasrifle UPS",
     "description": "An energy based weapon, and is the most common and widely used type of laser weapon in the Imperium. It is standard issue for all Imperial Guard infantry and most lower-ranked officers. This handcrafted version uses UPS as ammunition",
     "weight": 2000,
-	"volume": 12,
+    "volume": 12,
     "price": 1600000,
     "to_hit": -1,
     "bashing": 12,
@@ -24,7 +25,8 @@
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MODE_BURST" ]
-  },{
+  },
+  {
     "id": "hellteethcw_off",
     "type": "TOOL",
     "name": "Mk. Xf Hell's Teeth chainsword (off)",
@@ -38,11 +40,11 @@
     "material": [ "steel", "plastic" ],
     "symbol": "/",
     "color": "red",
-	"ammo": "gasoline",
-	"max_charges": 400,
-    "techniques": ["SWEEP","WBLOCK_2"],
+    "ammo": "gasoline",
+    "max_charges": 400,
+    "techniques": [ "SWEEP", "WBLOCK_2" ],
     "use_action": "CHAINSAW_OFF",
-    "flags": [ "NONCONDUCTIVE","DURABLE_MELEE", "SHEATH_SWORD" ]
+    "flags": [ "NONCONDUCTIVE", "DURABLE_MELEE", "SHEATH_SWORD" ]
   },
   {
     "id": "hellteethcw_on",
@@ -61,12 +63,12 @@
     "color": "red",
     "ammo": "gasoline",
     "max_charges": 400,
-	"turns_per_charge": 1,
+    "turns_per_charge": 1,
     "revert_to": "hellteethcw_off",
-    "techniques": ["SWEEP","WBLOCK_2"],
+    "techniques": [ "SWEEP", "WBLOCK_2" ],
     "qualities": [ [ "AXE", 2 ] ],
     "use_action": "CHAINSAW_ON",
-    "flags": [ "MESSY", "NONCONDUCTIVE", "DURABLE_MELEE"]
+    "flags": [ "MESSY", "NONCONDUCTIVE", "DURABLE_MELEE" ]
   },
   {
     "id": "eviscw_off",
@@ -82,11 +84,11 @@
     "material": [ "steel", "plastic" ],
     "symbol": "/",
     "color": "red",
-	"ammo": "gasoline",
-	"max_charges": 1000,
-    "techniques": ["SWEEP","WBLOCK_2"],
+    "ammo": "gasoline",
+    "max_charges": 1000,
+    "techniques": [ "SWEEP", "WBLOCK_2" ],
     "use_action": "CHAINSAW_OFF",
-    "flags": [ "NONCONDUCTIVE","DURABLE_MELEE", "SHEATH_SWORD" ]
+    "flags": [ "NONCONDUCTIVE", "DURABLE_MELEE", "SHEATH_SWORD" ]
   },
   {
     "id": "eviscw_on",
@@ -105,12 +107,12 @@
     "color": "red",
     "ammo": "gasoline",
     "max_charges": 1000,
-	"turns_per_charge": 1,
+    "turns_per_charge": 1,
     "revert_to": "eviscw_off",
-    "techniques": ["SWEEP","WBLOCK_2", "WIDE", "BRUTAL"],
+    "techniques": [ "SWEEP", "WBLOCK_2", "WIDE", "BRUTAL" ],
     "qualities": [ [ "AXE", 2 ] ],
     "use_action": "CHAINSAW_ON",
-    "flags": [ "MESSY", "NONCONDUCTIVE", "DURABLE_MELEE"]
+    "flags": [ "MESSY", "NONCONDUCTIVE", "DURABLE_MELEE" ]
   },
   {
     "id": "dlakucrusade_hellgun_ups",
@@ -118,7 +120,7 @@
     "name": "D laku Crusade-pattern Hellgun UPS",
     "description": "A pattern of Imperial Lasgun that possesses a more advanced and powerful laser plasma generation system intended to provide more energetic laser fire on-target. This weapon is able to melt through almost any body armor. This handcrafted version uses UPS as ammunition",
     "weight": 15000,
-	"volume": 50,
+    "volume": 50,
     "price": 3000000,
     "to_hit": -3,
     "bashing": 15,
@@ -138,7 +140,8 @@
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "ammo_effects": [ "PLASMA", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MODE_BURST" ]
-  },{
+  },
+  {
     "id": "godwyndeaz_boltgun",
     "type": "GUN",
     "name": "Godwyn-De az Pattern boltgun",
@@ -153,13 +156,13 @@
     "color": "dark_grey",
     "ammo": "75bolt",
     "skill": "rifle",
-	"burst" : 3,
     "ranged_damage": 4,
     "dispersion": 6,
     "durability": 10,
+    "burst": 3,
     "loudness": 150,
     "reload": 200,
     "barrel_length": 1,
-    "magazines": [ [ "75boltround" , [ "75boltmag", "75boltdrum"] ] ]
-}
-  ]
+    "magazines": [ [ "75boltround", [ "75boltmag", "75boltdrum" ] ] ]
+  }
+]
