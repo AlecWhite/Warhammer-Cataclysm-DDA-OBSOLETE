@@ -37,7 +37,7 @@
         "dispersion": 5,
         "recoil": 750,
         "casing": "bolt_casing",
-        "effects": ["COOKOFF", "BEANBAG", "EXPLOSION", "MUZZLE_SMOKE"],
+        "effects": ["COOKOFF", "BEANBAG", "EXPLOSION"],
         "EXPLOSION":
         {
             "power": 1000,
