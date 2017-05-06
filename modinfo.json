@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "WC21",
+    "name": "Warhammer Cataclysm",
+    "authors": [ "Alec White" ],
+    "maintainers": [ "Alec White" ],
+    "description": "Adds an asortment of items and armor inspired by Warhammer 40k",
+    "dependencies": [ "dda" ]
+  }
+]
