@@ -1,0 +1,34 @@
+[
+  {
+    "id": "75boltmag",
+    "type": "MAGAZINE",
+    "name": "21 round .75 bolt magazine",
+    "description": "A 21 round magazines for .75 bolt rounds",
+    "weight": 200,
+    "volume": 5,
+    "price": 8000,
+    "material": "steel",
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": "75boltround",
+    "capacity": 21,
+    "reliability": 10,
+    "reload_time": 150
+  },
+  {
+    "id": "75boltdrum",
+    "type": "MAGAZINE",
+    "name": "50 round .75 bolt drum",
+    "description": "A 50 round drum for .75 bolt rounds",
+    "weight": 5000,
+    "volume": 20,
+    "price": 8000,
+    "material": "steel",
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": "75boltround",
+    "capacity": 50,
+    "reliability": 10,
+    "reload_time": 350
+  }
+]
