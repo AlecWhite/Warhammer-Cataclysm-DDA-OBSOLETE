@@ -1,35 +1,44 @@
-[{
-  "type" : "recipe",
-  "result": "75boltround",
-  "category": "CC_AMMO",
-  "subcategory": "CSC_AMMO_SHOT",
-  "skill_used": "fabrication",
-  "skills_required": [ "gun", 5 ],
-  "difficulty": 8,
-  "time": 500,
-  "autolearn": false,
-  "book_learn": [ [ "WH40KRB", 3 ] ],
-  "qualities": [
-      { "id": "HAMMER", "level": 2 },
-      { "id": "SCREW", "level": 1 },
-      { "id": "WRENCH", "level": 1 },
-      { "id": "GLARE", "level": 2 }
-    ],
-  "tools": [
-    [
-      [ "fire", -1 ],
-      [ "toolset", 2 ]
+[
+    {
+        "type": "recipe",
+        "result": "75boltround",
+        "category": "CC_AMMO",
+        "subcategory": "CSC_AMMO_SHOT",
+        "skill_used": "fabrication",
+        "skills_required": ["gun", 5],
+        "difficulty": 8,
+        "time": 700,
+        "autolearn": false,
+        "book_learn": [["WH40KRB", 3]],
+        "qualities": [
+            {
+                "id": "HAMMER",
+                "level": 2
+            },
+            {
+                "id": "SCREW",
+                "level": 1
+            },
+            {
+                "id": "WRENCH",
+                "level": 1
+            },
+            {
+                "id": "GLARE",
+                "level": 2
+            }
+        ],
+        "tools": [[["welder", 150], ["welder_crude", 200], ["toolset", 200], ["oxy_torch", 40]]],
+            "components": [
+                [
+                    ["gunpowder", 50],
+                    ["chem_black_powder", 50]
+                ],
+                [
+                    ["scrap", 1],
+                    ["steel_lump",  2 ],
+                        	  [ "lgrifle_primer", 2]
+                ]
+            ]
+        }
     ]
-  ],
-  "components": [
-    [
-      [ "gunpowder", 50 ],
-      [ "chem_black_powder", 50 ]
-    ],
-    [
-      [ "scrap", 1 ],
-      [ "steel_lump",", 2 ], 
-	  [ "lgrifle_primer",", 2 ]
-    ]
-  ]
-}]
