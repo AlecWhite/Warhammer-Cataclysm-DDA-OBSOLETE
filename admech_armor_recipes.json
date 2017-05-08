@@ -21,6 +21,6 @@
       [ [ "coat_rain", 1 ] ],
       [ [ "chestrig", 1 ], [ "legrig", 1 ], [ "vest", 1 ], [ "tool_belt", 1 ], [ "ragpouch", 6 ], [ "leather_pouch", 4 ], [ "dump_pouch", 1 ], [ "purse", 2 ], [ "fanny", 2 ] ],
       [ [ "duct_tape", 200 ] ],
-      [ [ "kevlar_plate", 6 ] ]
+      [ [ "kevlar_plate", 10 ] ]
     ]
   }]

@@ -17,7 +17,7 @@
     "encumbrance": 15,
     "storage": 40,
     "warmth": 10,
-    "material_thickness": 1,
+    "material_thickness": 2,
     "environmental_protection": 10,
     "flags": [ "VARSIZE", "HOOD", "WATERPROOF", "POCKETS", "RAINPROOF", "STURDY" ]
   }]
