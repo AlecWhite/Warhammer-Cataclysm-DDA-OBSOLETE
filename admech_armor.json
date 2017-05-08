@@ -1,0 +1,23 @@
+[{
+    "id": "admech_robe",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "Adeptus Mechanicus robe",
+    "description": "An Adeptus Mechanicus robe. A lightweight fire-proof water-proof robe reinforced with kevlar",
+    "weight": 2500,
+    "volume": 20,
+    "price": 100000,
+    "to_hit": -3,
+    "bashing": 6,
+    "material": [ "kevlar", "nomex" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "LEGS", "TORSO", "ARMS" ],
+    "coverage": 100,
+    "encumbrance": 15,
+    "storage": 40,
+    "warmth": 10,
+    "material_thickness": 1,
+    "environmental_protection": 10,
+    "flags": [ "VARSIZE", "HOOD", "WATERPROOF", "POCKETS", "RAINPROOF", "STURDY" ]
+  },]
