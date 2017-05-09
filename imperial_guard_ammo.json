@@ -28,7 +28,7 @@
         "material": ["powder", "steel"],
         "symbol": "=",
         "color": "green",
-        "count": 50,
+        "count": 2,
         "stack_size": 35,
         "ammo_type": "75boltround",
         "range": 30,
