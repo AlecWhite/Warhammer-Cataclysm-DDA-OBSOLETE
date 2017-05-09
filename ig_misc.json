@@ -9,6 +9,6 @@
     "material": "steel",
     "symbol": ",",
     "color": "grey",
-    "use_action": "MEDITATE",
-    "flags": [ "FANCY" ]
+    "flags": [ "FANCY" ],
+	"use_action": "IUSE_LUA_FOR_THE_EMPEROR"
   }]
